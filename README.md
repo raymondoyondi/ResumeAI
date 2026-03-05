@@ -49,8 +49,17 @@ ResumeAI is an intelligent, full-stack web application designed to help job seek
 3.  **Set up Environment Variables:**
     Create a `.env` file in the root directory and add your credentials:
     ```env
-    DATABASE_URL=your_db_url
-    AI_API_KEY=your_ai_key
+    NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+    CLERK_SECRET_KEY=
+
+    NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+    NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+
+    MONGODB_URL=
+
+    GEMINI_API_KEY=
+ 
+    BASE_URL=localhost:3000
     ```
 
 4.  **Run the development server:**
